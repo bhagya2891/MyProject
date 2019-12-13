@@ -1,0 +1,21 @@
+<form>
+	<input type="text" name="x1">
+	<input type="text" name="x1">
+	<input type="text" name="x1">
+	<button type="button" onclick="getval()">Enter</button>
+</form>
+
+<script type="text/javascript">
+	function getval(){
+		// console.log(document);
+		console.log(document.getElementsByName("x1"))
+		//set
+		document.getElementsByName("x1")[0].value = 900;
+		//get
+		ans = document.getElementsByName("x1")[1].value;
+		console.log(ans);
+
+		document.getElementsByName("x1")[2].style.border="solid";
+	}
+</script>
+

@@ -1,0 +1,16 @@
+<h1 id="xyz">test</h1>
+<h1 id="xyz">test</h1>
+<h1 id="xyz">test</h1>
+
+<button onclick="myfunc()">Enter</button>
+
+<script type="text/javascript">
+	myfunc = ()=>{
+		// console.log(document)
+		console.log(document.querySelectorAll("#xyz"))
+
+		document.querySelectorAll("#xyz")[0].style.color="red"
+		document.querySelectorAll("#xyz")[1].innerHTML="helllo"
+		
+	}	
+</script>

@@ -1,0 +1,16 @@
+<h1>test</h1>
+<h1>test</h1>
+<h1>test</h1>
+
+<button onclick="myfunc()">Enter</button>
+
+<script type="text/javascript">
+	myfunc = ()=>{
+		console.log(document)
+		console.log(document.getElementsByTagName("h1"))
+
+		document.getElementsByTagName("h1")[0].style.color="red";
+		document.getElementsByTagName("h1")[1].style.fontSize="60px";
+		document.getElementsByTagName("h1")[2].style.background="#ccc";
+	}	
+</script>

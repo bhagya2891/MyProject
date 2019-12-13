@@ -1,0 +1,16 @@
+<h1 id="myclass">hello</h1>
+<h1 id="myclass">hello</h1>
+
+<button onclick="do_some()">Enter</button>
+<script type="text/javascript">
+	do_some = function(){
+		// console.log(document)
+		console.log(document.getElementById("myclass"))
+
+		document.getElementById("myclass").className="xyz";		
+	}
+</script>
+
+<style type="text/css">
+	.xyz{color: red;background: #ccc;font-size: 50px;}
+</style>

@@ -1,0 +1,15 @@
+<h1 id="xyz">test</h1>
+<h1 id="xyz">test</h1>
+<h1 id="xyz">test</h1>
+
+<button>Enter</button>
+
+<script type="text/javascript">
+	//DOM EVENTS
+	ans = document.querySelector("button")
+	// console.log(ans);
+	ans.onclick = function(){
+		console.log('testing event')
+		document.querySelector("#xyz").innerHTML = "hello";
+	}
+</script>
